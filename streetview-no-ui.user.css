@@ -1,5 +1,6 @@
 /* ==UserStyle==
 @name         True StreetView
+@namespace    github.com/bre7/stylus-styles
 @version      0.0.2
 @description  Hides all ui elments when using Street View
 @license      MIT
@@ -8,7 +9,6 @@
 
 @-moz-document regexp("https://www\\.google\\.com/maps/@(\\-?\\d+(\\.\\d+)?),(\\-?\\d+(\\.\\d+)?),(\\d?(\\.\\d+)?a),(\\d+(\\.\\d+)?y),(\\d+(\\.\\d+)?h),(\\d+(\\.\\d+)?t)\\/.*") {
 
-  @namespace url(http://www.w3.org/1999/xhtml);
   #titlecard,
   .widget-runway-thumbstrip-background,
   .widget-runway-background-filler.widget-runway-background-filler-many,
